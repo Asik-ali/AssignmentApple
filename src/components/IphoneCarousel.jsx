@@ -10,8 +10,8 @@ const DemoCarousel = () => {
 
   const renderCustomIndicator = (onClickHandler, isSelected, index, label) => {
     const indicatorStyle = {
-      width: isSelected ? '10px' : '5px',
-      height: isSelected ? '10px' : '5px',
+      width: isSelected ? '15px' : '10px',
+      height: isSelected ? '20px' : '10px',
       backgroundColor:
         index === 0
           ? '#2D2D2D'
