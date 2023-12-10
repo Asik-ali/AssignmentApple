@@ -1,0 +1,51 @@
+/* DemoCarousel.css */
+
+.custom-carousel-container {
+    max-width: 100%; /* Make sure the carousel is 100% of its container */
+    margin: auto; /* Center the carousel within its container */
+  }
+  
+  /* Responsive styles for the carousel images */
+  .responsive-image {
+    width: 100%; /* Make the image fill its container */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Responsive styles for custom indicators */
+  .dot {
+    width: 5px;
+    height: 5px;
+    margin: 0 2px;
+    cursor: pointer;
+    transition: background-color 0.6s ease;
+  }
+  
+  .selected {
+    width: 10px;
+    height: 10px;
+  }
+  
+  /* Responsive classes for smaller screens */
+  @media (max-width: 640px) {
+    .responsive-image {
+        height: 100px;
+        width: 300px;
+      /* Adjust styles for smaller screens */
+    }
+  }
+  
+  /* Responsive classes for larger screens */
+  @media (min-width: 641px) and (max-width: 1024px) {
+    .responsive-image {
+        height: 100px;
+        width: 300px;    }
+  }
+  
+  /* Responsive classes for extra-large screens */
+  @media (min-width: 1025px) {
+    .responsive-image {
+
+        height:400px;
+        width: 400px;    }
+  }
+  
