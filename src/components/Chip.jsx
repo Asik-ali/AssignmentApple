@@ -15,12 +15,15 @@ function Chip() {
             <div className='px-4 lg:px-0'>
                 <img src="https://www.apple.com/v/iphone-15-pro/c/images/overview/chip/chip_performance_hw__6ytcie74ao22_large.png" alt="" style={{ width: '100%' }} />
             </div>
-            <div className='absolute top-[42%] rounded-xl mt-7 ms-18'>
+            <div className='absolute lg:top-[42%] top-[32%] md:top-[31%] rounded-xl lg:mt-7 md:mt-0 md:mb-2 mt-[70px] ms-18'>
                 {/* Adjust the width and height of the video */}
-                <video autoPlay muted  className='h-[460px] w-[1300px]'>
+                <video autoPlay muted  className='lg:h-[460px] h-[400px] md:h-[700px] md:w-[560px] w-[220px] lg:w-[1300px]'
+               
+                >
                     <source src={img} type="video/mp4" />
                 </video>
             </div>
+
             <div className='flex flex-col lg:flex-row px-4 lg:px-0 justify-center items-start gap-10 lg:justify-evenly lg:gap-[260px]'>
                 <div className='flex flex-col lg:items-center gap-7'>
                     <p className='text-[#86868B] text-xl lg:w-[300px]'>A17 Pro is an entirely new class of iPhone chip that delivers our <span className='text-white'>best graphics performance by far.</span></p>
